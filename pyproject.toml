@@ -6,8 +6,15 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "click>=8.3.0",
+    "fastapi>=0.120.4",
+    "keyboard>=0.13.5",
+    "numpy>=2.3.4",
     "prompt-toolkit>=3.0.52",
+    "requests>=2.32.5",
     "rich>=14.2.0",
+    "sounddevice>=0.5.3",
     "textual>=6.5.0",
     "typer>=0.20.0",
+    "uvicorn>=0.38.0",
+    "websockets>=15.0.1",
 ]
